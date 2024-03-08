@@ -1,5 +1,11 @@
 # caflint [![CI](https://github.com/aztfmod/caflint/actions/workflows/ci.yml/badge.svg)](https://github.com/aztfmod/caflint/actions/workflows/ci.yml)
 
+> ⚠️ This solution, offered by the Open-Source community, will no longer receive contributions from Microsoft. Customers are encouraged to transition to Microsoft Azure Verified Modules for continued support and updates.
+
+This project will be archived on the 1st of July 2024. Customers interested in maintaining their use of this community solution should refer to <link with new repo>."
+
+Furthermore, change to the name across the document from "Cloud Adoption Framework for Azure - Terraform module" to "Azure Terraform SRE" and delete any CAF references
+
 caflint is a linter that can validate configurations for the [Cloud Adoption Framework for Azure landing zones on Terraform (caf)](https://github.com/Azure/caf-terraform-landingzones)
 
 CAF uses .tfvars configuration files to define resources to deploy on Azure. Caflint valies that the tfvars file is syntactically correct and also ensures that configurations in the file are valid inputs for the specified landing zone.
